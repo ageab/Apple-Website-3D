@@ -19,7 +19,7 @@ const Features = () => {
       },
     });
 
-    animateWithGsap("features_title", { y: 0, opacity: 1 });
+    animateWithGsap("#features_title", { y: 0, opacity: 1 });
     animateWithGsap(
       ".g_grow",
       { scale: 1, opacity: 1, ease: "power1" },
